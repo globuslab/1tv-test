@@ -13,7 +13,7 @@
 
   // Perform query
   if ($result = $mysqli -> query("SHOW DATABASES")) {
-    echo "Returned rows are: " . $result -> num_rows;
+    echo "Find databases in DB: " . $result -> num_rows;
     // Free result set
     $result -> free_result();
   }
